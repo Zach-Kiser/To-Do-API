@@ -1,17 +1,17 @@
-This is a To-Do List API project implemented using Python/Flask.
+__This is a To-Do List API project implemented using Python/Flask__
 
-After cloning the repository, dependencies can be installed by running:
+__After cloning the repository, dependencies can be installed by running:__
 
 pip install -r requirements.txt
 
-To run the API:
+__To run the API:__
 
 python main.py
 
-Documentation was created using Swagger, and is viewable by visiting the below URL while the API is running:
+__Documentation was created using Swagger, and is viewable by visiting the below URL while the API is running:__
 
 http://127.0.0.1:5000/swagger
 
-To run unit tests:
+__To run unit tests:__
 
 pytest test_api.py
