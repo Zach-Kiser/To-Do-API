@@ -15,3 +15,6 @@ http://127.0.0.1:5000/swagger
 __To run unit tests:__
 
 pytest test_api.py
+
+__Example of manually sending requests:__
+curl -H "Content-Type: application/json" -X POST -d '{"name":"Do homework","description":"Finish English paper","status":"Incomplete"}' http://localhost:5000/tasks
