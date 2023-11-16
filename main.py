@@ -28,7 +28,6 @@ class Task(Resource):
         if task_id not in tasks:
             abort(404, message=f"Task {task_id} not found")
         args = parser.parse_args()
-        #Only update specified fields
         tasks[task_id]['name'] = args['name']
         tasks[task_id]['description'] = args['description']
         tasks[task_id]['status'] = args['status']
