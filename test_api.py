@@ -2,7 +2,6 @@ import pytest
 from flask import Flask
 from flask_restful import Api
 from main import Task, TaskList
-import json
 
 class Test_API():
     @pytest.fixture(autouse=True)
