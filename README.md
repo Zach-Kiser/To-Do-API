@@ -1,4 +1,4 @@
-__This is a To-Do List API project implemented using Python/Flask__
+__A To-Do List API project implemented using Python/Flask__
 
 __After cloning the repository, dependencies can be installed by running:__
 
